@@ -1,2 +1,64 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
 
+html {
+    background-color: black;
+}
+
+body {
+    width: 901px; 
+    margin: 0 auto;
+    padding: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    background-color: floralwhite;
+}
+
+header {
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+    align-content: center;
+}
+
+header figure img {
+    width: 42px;
+    margin-right: 5px;
+}
+
+#logoGroup {
+    width: fit-content;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+h2{ 
+    width: fit-content;
+    margin-bottom: .2rem;
+    font-size: 2.1rem;
+    font-weight: bold;
+    color: black;
+}
+
+h4 {
+    font-size: .6rem;
+    color: grey;
+}
+
+header #socials {
+    margin-right: 10px;
+}
+
+header ul {
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+}
+
