@@ -7,18 +7,19 @@ html {
 body {
     width: 901px; 
     margin: 0 auto;
-    padding: 3rem;
+    padding: 3rem 10rem 0 10rem;
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
     background-color: floralwhite;
+    text-align: center;
 }
 
 header {
     display: flex;
-    margin: 0 auto;
     margin-bottom: 2rem;
     justify-content: space-between;
     align-content: center;
+    text-align: left;
 }
 
 header figure img {
@@ -37,9 +38,10 @@ header figure img {
 h2{ 
     width: fit-content;
     margin-bottom: .2rem;
-    font-size: 2.1rem;
+    font-size: 1.8rem;
     font-weight: bold;
     color: black;
+    text-align: left;
 }
 
 h4 {
@@ -62,3 +64,47 @@ header li {
     display: inline;
 }
 
+#sectionHeading {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 1rem 0 1rem 0;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: .8rem;
+    color: grey;
+}
+
+#sectionHeading p {
+    text-transform: uppercase;
+}
+div#print {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+main article {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+form {
+    background-image: url(img/list-bg.png);
+}
+
+footer {
+    text-align: left;
+}
+
+#copy {
+    text-align: center;
+}
